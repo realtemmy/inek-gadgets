@@ -16,7 +16,7 @@ const NavCategory = () => {
         boxShadow: '2px 4px 8px rgb(0,0,0,0.2)'
     }}>
       <div
-        className="d-flex justify-content-between py-3 text-capitalize f-6 container"
+        className="d-none d-md-flex justify-content-between py-3 text-capitalize f-6 container"
         style={{
           overflowX: "scroll",
           width: 'fitContent'
