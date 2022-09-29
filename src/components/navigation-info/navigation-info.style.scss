@@ -1,0 +1,19 @@
+.nav-info-container {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    #555353;
+  color: #fff;
+  font-size: 10px;
+
+  .currency {
+    border-left: 2px solid rgba(255, 193, 158, 1);
+  }
+  .info {
+    align-items: center;
+    display: flex;
+    align-items: baseline;
+  }
+}
+
+// i[class*="fa-"] {
+//   font-size: 30px;
+// }
