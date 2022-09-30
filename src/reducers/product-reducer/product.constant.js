@@ -1,0 +1,3 @@
+export const PRODUCTS_CONSTANTS = {
+  SET_PRODUCTS: "SET_PRODUCTS",
+};

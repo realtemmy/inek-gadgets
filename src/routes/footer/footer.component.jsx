@@ -1,4 +1,4 @@
-import FooterMail from "../footer-mail/footer-mail.component";
+import FooterMail from "../../components/footer-mail/footer-mail.component";
 const Footer = () =>{
     return (
     <div className="footer">
