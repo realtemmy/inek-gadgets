@@ -4,9 +4,8 @@ const initialProductState = {
   products: [],
 };
 
-export const categoryReducer = (state = initialProductState, action) => {
+export const productReducer = (state = initialProductState, action) => {
   const { type, payload } = action;
-  // action.payload = {}
   console.log(payload)
   switch (type) {
     case PRODUCTS_CONSTANTS.SET_PRODUCTS:

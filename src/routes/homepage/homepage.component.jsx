@@ -1,16 +1,14 @@
-import { Fragment, useEffect } from "react";
+import { Fragment } from "react";
 import { useSelector } from "react-redux";
 import Carousel from "../../components/carousel/carousel.component";
 
 const Homepage = () =>{
-    const categories = useSelector((state) => state.category);
-
-    console.log(categories);
+    
+const productsFromStore = useSelector((state) => state.products);
+    console.log(productsFromStore);
     return (
         <Fragment>
             <Carousel />
-            
-            Hello world
         </Fragment>
     )
 }
