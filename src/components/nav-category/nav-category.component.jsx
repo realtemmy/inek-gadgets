@@ -1,6 +1,10 @@
+import { useSelector } from "react-redux";
+import { selectProductCategories } from "../../reducers/product-reducer/product.selector";
 import NavItem from "./navItem.component";
 
 const NavCategory = () => {
+  const navItems = useSelector(selectProductCategories);
+  console.log(navItems);
   const navItemArr = [
     "all categories",
     "accessories",
